@@ -5,6 +5,9 @@ We have an excellent blog article that discusses best practices with Apple's cha
 
 Full Gimbal Docs [http://docs.gimbal.com/](http://docs.gimbal.com/)
 
+## You can only ask for location once.
+This means this demo will only work once. To see how the prompts appear again, you must delete and reinstall the app.
+
 ## If you are using the one-phase approach, you would register Gimbal as is. 
 Gimbal will request permission for you after you set your API key.
 
