@@ -1,6 +1,8 @@
 # iOS Permission Authorization Sample App
 This implementation exists primarily to demonstrate how you can turn off Gimbal's default location permission prompt to give you more control over how you want to ask users for their location.
 
+We have an excellent blog article that discusses best practices with Apple's changes to location authorization, located here https://gimbal.com/ios11-location-services-best-practices/.
+
 Full Gimbal Docs [http://docs.gimbal.com/](http://docs.gimbal.com/)
 
 ## If you are using the one-phase approach, you would register Gimbal as is. 
