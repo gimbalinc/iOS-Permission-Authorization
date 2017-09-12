@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74E354A21B4EF71C00356163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E354A11B4EF71C00356163 /* AppDelegate.swift */; };
+		74E354A41B4EF71C00356163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E354A31B4EF71C00356163 /* ViewController.swift */; };
+		74E354A71B4EF71C00356163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E354A51B4EF71C00356163 /* Main.storyboard */; };
+		74E354A91B4EF71C00356163 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E354A81B4EF71C00356163 /* Images.xcassets */; };
+		74E354AC1B4EF71C00356163 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E354AA1B4EF71C00356163 /* LaunchScreen.xib */; };
+		BB346A0C1F6756BB00264821 /* Gimbal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB346A0B1F6756B600264821 /* Gimbal.framework */; };
+		BB346A0D1F6756BB00264821 /* Gimbal.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB346A0B1F6756B600264821 /* Gimbal.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ED050DCC1BEBDAC200CC65A0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED050DCB1BEBDAC200CC65A0 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB8239D91F633879005F8C42 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BB346A0D1F6756BB00264821 /* Gimbal.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		74E3549C1B4EF71C00356163 /* hello-gimbal-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-gimbal-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E354A01B4EF71C00356163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E354A11B4EF71C00356163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74E354A31B4EF71C00356163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74E354A61B4EF71C00356163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74E354A81B4EF71C00356163 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74E354AB1B4EF71C00356163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		74E354CE1B4F076300356163 /* GimbalObjectiveCBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GimbalObjectiveCBridgingHeader.h; sourceTree = "<group>"; };
+		BB346A0B1F6756B600264821 /* Gimbal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Gimbal.framework; sourceTree = "<group>"; };
+		ED050DCB1BEBDAC200CC65A0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E354991B4EF71C00356163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB346A0C1F6756BB00264821 /* Gimbal.framework in Frameworks */,
+				ED050DCC1BEBDAC200CC65A0 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741EE1BA1B56DD5F009569C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB346A0B1F6756B600264821 /* Gimbal.framework */,
+				ED050DCB1BEBDAC200CC65A0 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74E354931B4EF71C00356163 = {
+			isa = PBXGroup;
+			children = (
+				74E3549E1B4EF71C00356163 /* hello-gimbal-swift */,
+				741EE1BA1B56DD5F009569C7 /* Frameworks */,
+				74E3549D1B4EF71C00356163 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E3549D1B4EF71C00356163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E3549C1B4EF71C00356163 /* hello-gimbal-swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E3549E1B4EF71C00356163 /* hello-gimbal-swift */ = {
+			isa = PBXGroup;
+			children = (
+				74E354A11B4EF71C00356163 /* AppDelegate.swift */,
+				74E354A31B4EF71C00356163 /* ViewController.swift */,
+				74E354CE1B4F076300356163 /* GimbalObjectiveCBridgingHeader.h */,
+				74E354A51B4EF71C00356163 /* Main.storyboard */,
+				74E354A81B4EF71C00356163 /* Images.xcassets */,
+				74E354AA1B4EF71C00356163 /* LaunchScreen.xib */,
+				74E3549F1B4EF71C00356163 /* Supporting Files */,
+			);
+			path = "hello-gimbal-swift";
+			sourceTree = "<group>";
+		};
+		74E3549F1B4EF71C00356163 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E354A01B4EF71C00356163 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E3549B1B4EF71C00356163 /* hello-gimbal-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E354BB1B4EF71C00356163 /* Build configuration list for PBXNativeTarget "hello-gimbal-swift" */;
+			buildPhases = (
+				74E354981B4EF71C00356163 /* Sources */,
+				74E354991B4EF71C00356163 /* Frameworks */,
+				74E3549A1B4EF71C00356163 /* Resources */,
+				BB8239D91F633879005F8C42 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello-gimbal-swift";
+			productName = "hello-gimbal-swift";
+			productReference = 74E3549C1B4EF71C00356163 /* hello-gimbal-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E354941B4EF71C00356163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Marshall Sprigg";
+				TargetAttributes = {
+					74E3549B1B4EF71C00356163 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3ETG9R4M5P;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 74E354971B4EF71C00356163 /* Build configuration list for PBXProject "hello-gimbal-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74E354931B4EF71C00356163;
+			productRefGroup = 74E3549D1B4EF71C00356163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E3549B1B4EF71C00356163 /* hello-gimbal-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E3549A1B4EF71C00356163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E354A71B4EF71C00356163 /* Main.storyboard in Resources */,
+				74E354AC1B4EF71C00356163 /* LaunchScreen.xib in Resources */,
+				74E354A91B4EF71C00356163 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E354981B4EF71C00356163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E354A41B4EF71C00356163 /* ViewController.swift in Sources */,
+				74E354A21B4EF71C00356163 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74E354A51B4EF71C00356163 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E354A61B4EF71C00356163 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74E354AA1B4EF71C00356163 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E354AB1B4EF71C00356163 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E354B91B4EF71C00356163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74E354BA1B4EF71C00356163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74E354BC1B4EF71C00356163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "hello-gimbal-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gimbal.permission-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "hello-gimbal-swift/GimbalObjectiveCBridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		74E354BD1B4EF71C00356163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "hello-gimbal-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gimbal.permission-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "hello-gimbal-swift/GimbalObjectiveCBridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E354971B4EF71C00356163 /* Build configuration list for PBXProject "hello-gimbal-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E354B91B4EF71C00356163 /* Debug */,
+				74E354BA1B4EF71C00356163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E354BB1B4EF71C00356163 /* Build configuration list for PBXNativeTarget "hello-gimbal-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E354BC1B4EF71C00356163 /* Debug */,
+				74E354BD1B4EF71C00356163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74E354941B4EF71C00356163 /* Project object */;
+}
